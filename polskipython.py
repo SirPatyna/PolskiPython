@@ -11,23 +11,11 @@ def wprowadź(prompt):
     """Odpowiednik funkcji input"""
     return input(prompt)
 
-
-# def jeśli(warunek, funkcja_prawda, funkcja_fałsz=None):
-#    """Odpowiednik konstrukcji if"""
-#    if warunek:
-#        funkcja_prawda()
-#    elif funkcja_fałsz:
-#        funkcja_fałsz()
-
-# def wprzeciwnym_razie(funkcja_fałsz):
-#    """Odpowiednik else"""
-#    funkcja_fałsz()
-
 def dodaj_do_listy(lista, dana):
     """Odpowiednik lista.append"""
     lista.append(dana)
 
-def dodaj_w_miejscu(lista, miejsce, dana):
+def wstaw_do_listy(lista, miejsce, dana):
     """Odpowiednik lista.insert"""
     lista.insert(miejsce,dana)
 
